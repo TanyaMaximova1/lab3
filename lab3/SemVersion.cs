@@ -191,23 +191,18 @@ namespace lab3
 
 		public override string ToString()
 		{
-			
-			return $"{v1}.{v2}.{v3}";
-			
+			return $"{v1}.{v2}.{v3}";	
 		}
 		
 		public override bool Equals(object obj)
-        {
-            return base.Equals(obj);
-        }
+                {
+                        return base.Equals(obj);
+                }
 
-        public override int GetHashCode()
-        {
-            return base.GetHashCode();
-        }
-		
-		
-
+                public override int GetHashCode()
+                {
+                        return base.GetHashCode();
+                }	
 	}
 }
 
