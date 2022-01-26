@@ -191,29 +191,9 @@ namespace lab3
 
 		public override string ToString()
 		{
-			if (v1 != null && v2 != null && v3 != null)
-			{
-				return $"{v1}.{v2}.{v3}";
-			}
-
-
-			//if (Unit_2_Part_1 != null && Unit_2_Part_2 != null && Unit_2_Part_3 == null)
-			//{
-			//	return $"{Unit_1_Part_1}.{Unit_1_Part_2}.{Unit_1_Part_3}-{ConvertDigitToPart(Unit_2_Part_1)}.{ConvertDigitToPart(Unit_2_Part_2)}";
-			//}
-
-
-			//if (Unit_2_Part_1 != null && Unit_2_Part_2 == null && Unit_2_Part_3 == null)
-			//{
-			//	return $"{Unit_1_Part_1}.{Unit_1_Part_2}.{Unit_1_Part_3}-{ConvertDigitToPart(Unit_2_Part_1)}";
-			//}
-
-
-			//if (Unit_2_Part_1 == null && Unit_2_Part_2 == null && Unit_2_Part_3 == null)
-			//{
-			//	return $"{Unit_1_Part_1}.{Unit_1_Part_2}.{Unit_1_Part_3}";
-			//}
-			return "";
+			
+			return $"{v1}.{v2}.{v3}";
+			
 		}
 
 	}
